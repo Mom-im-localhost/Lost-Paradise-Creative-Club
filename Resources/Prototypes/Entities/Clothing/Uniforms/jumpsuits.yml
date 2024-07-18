@@ -147,6 +147,28 @@
 
 - type: entity
   parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitCentcomGSNOfficer
+  name: GSN officer suit
+  description: It's a suit worn by CentCom's highest-tier Commanders.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/centcom_gsnofficer.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/centcom_gsnofficer.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitCentcomBlackFormal
+  name: CentCom elite suit
+  description: It's a suit worn by CentCom's highest-tier Commanders.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/centcomblackformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/centcomblackformal.rsi
+
+- type: entity
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomOfficer
   name: CentCom turtleneck suit # Corvax-Resprite
   description: A casual, yet refined green turtleneck, used by CentCom Officials. It has a fragrance of aloe. # Corvax-Resprite
